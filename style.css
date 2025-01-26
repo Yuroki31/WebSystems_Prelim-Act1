@@ -1,0 +1,103 @@
+@charset "utf-8";
+body {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+    margin: 0;
+    padding: 0;
+    background-color: #212fa6;
+}
+
+table {
+    width:85%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+th, td {
+    border: 3px solid #212fa6;
+    text-align: center;
+    vertical-align: top;
+    padding: 20px;
+}
+
+.header {
+    color: white;
+	text-align: left;
+}
+
+.CCS-logo {
+    height: 150px;
+    width: 150px;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center; 
+}
+
+.content p {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.green-dropdown {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 20px 35px; 
+    font-size: 18px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 5px;
+}
+
+.green-dropdown:hover {
+    background-color: #45a049; 
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.footer td {
+    padding-top: 20px;
+	padding-bottom: 40px;
+    vertical-align: top; 
+}
+
+.footer p, .footer h1 {
+    margin: 5px 0; 
+    text-align: left;
+}
+
+.poster {
+	height: 500px;
+	width: 450px;
+}
